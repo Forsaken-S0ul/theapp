@@ -50,6 +50,10 @@ def search():
      response = videosSearch.result()
      link = get_link(response)
      links.append(link)
+   
+   Links_for_dl = json.dumps(links)
+   with open('youtube_links.json','w') as file: 
+      file.write(Links_for_dl)
 
    return links
 

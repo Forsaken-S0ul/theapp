@@ -44,12 +44,17 @@ def getTracks():
    sp = spotipy.Spotify(auth = token_info['access_token'])
    my_songs = []
    iteration = 0;
-   while True:
-       items = sp.current_user_saved_tracks(limit = 50, offset = iteration*50)['items']
+   
+   playlist_id = input('enter playlist link(Note: only your own playlists can be downloaded from this):')
+   if playlist_id:
+    while True:
+       items = sp.playlist_tracks(playlist_id,limit = 50, offset = iteration*50)['items']
        iteration+=1
        my_songs += items
        if (len(items)<50):
            break
+    else:
+      print('please provode a name or id for your playlist.')
    list_length = len(my_songs)  
    results = []
    artists_names = []
