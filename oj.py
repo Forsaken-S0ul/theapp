@@ -4,5 +4,6 @@ import os
 if __name__ == "__main__":
   os.chdir("Rabbit_hole")
   spotify.main()
-  yt_downloader.main()
   yt_scraper.main()
+  yt_downloader.main()
+  

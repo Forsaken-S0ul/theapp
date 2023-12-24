@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for
 import requests
 import json
-from bs4 import BeautifulSoup
 from youtubesearchpython import VideosSearch
 import os
 

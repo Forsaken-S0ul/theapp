@@ -15,7 +15,7 @@ def getTracks(sp):
        if (len(items)<50):
            break
     else:
-      print('please provode a name or id for your playlist.')
+      print('please provide a name or id for your playlist.')
    list_length = len(my_songs)  
    results = []
    artists_names = []
