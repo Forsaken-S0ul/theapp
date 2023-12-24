@@ -3,7 +3,6 @@
 ## A fully functional project written in python to download your spotify playlists songs
 
 [![GitHub contributors](https://img.shields.io/github/contributors/JustAnOj/ojtheapp)](https://github.com/JustAnOj/ojtheapp/graphs/contributors)
-[![GitHub forks](https://img.shields.io/github/forks//JustAnOj/ojtheapp)](https://github.com//JustAnOj/ojtheapp/network/members)
 
 This is a project that was built for solving a common issue for music lovers using python with flask, it lets you download your playlists from spotify.This project leverages the Spotify API to fetch playlist details and downloads the associated tracks.
 
