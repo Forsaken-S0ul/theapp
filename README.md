@@ -1,4 +1,4 @@
-# Ojtheapp
+# theapp
 
 ## A fully functional project written in python to download your spotify playlists songs
 
